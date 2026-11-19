@@ -23,3 +23,5 @@ Lab 6: Code and Branch Coverage
 | Branch coverage | `coverage run --branch -m pytest BranchCoverageTest_pet_boarding.py` | **100% line and branch coverage** (26/26 branches, 44 tests) |
 
 Run `coverage report -m` after each `coverage run` to see the table.
+
+Run the tests from this folder, for example: `python -m coverage run --branch -m pytest BranchCoverageTest_pet_boarding.py` then `python -m coverage report -m`.
